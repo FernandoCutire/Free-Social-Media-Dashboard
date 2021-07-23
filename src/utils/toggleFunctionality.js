@@ -1,18 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import "./App.css";
-
-import App from './App';
-
-
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
+// Toggle functionality
 const toggle = document.querySelector('#toggle input');
 
 function clickHandler() {
@@ -25,5 +11,4 @@ function clickHandler() {
     }
 }
 toggle.addEventListener('click', clickHandler);
-
 
