@@ -1,7 +1,7 @@
 function Overview() {
     return (
         <>
-            <h3 className='overview__title'>Overview - Today</h3>
+            <h3 className='overview__title'>Overview - Hoy</h3>
             <section className="overview-container">
                 <div className="overview-card">
                     <div className="overview__number">
